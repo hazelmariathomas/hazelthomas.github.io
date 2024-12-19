@@ -1,0 +1,65 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .nav-link {
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+  }
+  .nav-link:hover {
+    color: #da312e !important; 
+  }
+  
+  /* Colors */
+  .bg-brown {
+    background-color: #5e4639; 
+  }
+  .bg-cherry {
+    background-color: #da312e;
+  }
+  .bg-black {
+    background-color: #000; 
+  }
+  
+  /* Text Colors */
+  .text-cherry {
+    color: #da312e;
+  }
+  
+
+  .work-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  .work-card:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .btn-cherry {
+    background-color: #da312e;
+    color: #fff;
+    border: 2px solid #da312e;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+  }
+  .btn-cherry:hover {
+    background-color: transparent;
+    color: #da312e;
+  }
+
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
